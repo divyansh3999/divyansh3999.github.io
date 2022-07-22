@@ -10,13 +10,13 @@ export default function NewData() {
          return response.json();
         }).then((data)=>{
           console.log(data);
-          newJsonData(data.slice(0,5));
+          newJsonData(data);
         });
     }
   return (
       <>
         <button className="btn btn-primary my-2" onClick={showData}>New Data</button>
-        <NewTable jsonData={jsonData}/>
+        <NewTable jsonData={jsonData.slice(0,5)}/>
       </>
   )
 }

@@ -1,13 +1,17 @@
 import React from "react";
+import AOS from 'aos';
 
 export default function Aboutus() {
+  AOS.init({
+    duration: 2000,
+  });
   return (
     <>
-      <section className="aboutUs text-center py-5" >
+      <section className="aboutUs text-center py-5" data-aos={"fade-left"}>
         <div className="container">
           <div className="col-md-8 offset-md-2">
             <div className="section">
-              <h1 data-aos={"fade-left"}>
+              <h1>
                 Landing template for <span>startups</span>
               </h1>
               <p className="text-center">

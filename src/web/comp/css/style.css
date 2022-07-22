@@ -129,13 +129,18 @@ p.workPara {
 .navbar-toggler-icon {
   background-image: url("../images/menu.svg") !important;
 }
-.divFooter, .copyrightText, .footerMenu{
-    display: flex;
-    justify-content: space-between;
+.divFooter,
+.copyrightText,
+.footerMenu {
+  display: flex;
+  justify-content: space-between;
 }
-.list-reset{
-    display: flex;
-    justify-content: center;
+.list-reset {
+  display: flex;
+  justify-content: center;
+}
+.nav-item .nav-link {
+  color: #fff;
 }
 @media (min-width: 992px) {
   .navbar-expand-lg .navbar-collapse {
@@ -158,28 +163,48 @@ p.workPara {
     font-size: 20px !important;
     color: #fff !important;
   }
-  .content .contentText h1{
+  .content .contentText h1 {
     font-size: 25px;
     text-align: center;
     padding-bottom: 25px;
   }
-  .divFooter, .copyrightText {
-      display: block !important;
+  .divFooter,
+  .copyrightText {
+    display: block !important;
   }
   .siteFooter {
-      text-align: center;
+    text-align: center;
   }
-  .siteFooter .list-reset{
-      padding-top: 20px;
-      padding-left: 0px;
+  .siteFooter .list-reset {
+    padding-top: 20px;
+    padding-left: 0px;
   }
-  .testimonial{
-      margin-top:20px;
+  .testimonial {
+    margin-top: 20px;
   }
-  .featurette{
-      text-align: center;
+  .featurette {
+    text-align: center;
   }
-  .marginMobile{
-     padding-bottom: 20px;
+  .marginMobile {
+    padding-bottom: 20px;
   }
+}
+.myCard img {
+  background: #fff;
+  padding: 10px;
+  border-radius: 88px;
+}
+.classForm{
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
 }
